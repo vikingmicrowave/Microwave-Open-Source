@@ -51,7 +51,6 @@ using namespace std;
 #include "IEngineTrace.h"
 #include "IMaterial.h"
 #include "IVModelInfo.h"
-#include "crc32.h"
 #include "CUserCmd.h"
 
 /* Hack Related. */
