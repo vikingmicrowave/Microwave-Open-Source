@@ -6,6 +6,7 @@ Macintosh hack for Counter-Strike: Global Offensive. Open source.
 + Added FrameStage
 + Fixed PaintTraverse
 + Added more functions to the SDK.
+
 # Todo:
 * Add CreateMove
 * Fix the rest of the SDK.
