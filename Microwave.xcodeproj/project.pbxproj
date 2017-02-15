@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1158A631E5355A000998137 /* Drawings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1158A611E5355A000998137 /* Drawings.cpp */; };
+		E1158A641E5355A000998137 /* Drawings.hpp in Headers */ = {isa = PBXBuildFile; fileRef = E1158A621E5355A000998137 /* Drawings.hpp */; };
+		E1158A661E537DBB00998137 /* framestage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1158A651E537DBB00998137 /* framestage.cpp */; };
+		E1B6D6EA1E52770E00BABC46 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1B6D6E81E52770E00BABC46 /* main.cpp */; };
+		E1B6D6EB1E52770E00BABC46 /* main.hpp in Headers */ = {isa = PBXBuildFile; fileRef = E1B6D6E91E52770E00BABC46 /* main.hpp */; };
+		E1B6D6F21E527E1700BABC46 /* interfaces.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1B6D6F01E527E1700BABC46 /* interfaces.cpp */; };
+		E1B6D6F31E527E1700BABC46 /* interfaces.hpp in Headers */ = {isa = PBXBuildFile; fileRef = E1B6D6F11E527E1700BABC46 /* interfaces.hpp */; };
+		E1B6D6FA1E5281D800BABC46 /* Hooks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1B6D6F81E5281D800BABC46 /* Hooks.cpp */; };
+		E1B6D6FB1E5281D800BABC46 /* Hooks.hpp in Headers */ = {isa = PBXBuildFile; fileRef = E1B6D6F91E5281D800BABC46 /* Hooks.hpp */; };
+		E1B6D6FF1E52853500BABC46 /* painttraverse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1B6D6FD1E52853500BABC46 /* painttraverse.cpp */; };
+		E1B6D7001E52853500BABC46 /* hacks.hpp in Headers */ = {isa = PBXBuildFile; fileRef = E1B6D6FE1E52853500BABC46 /* hacks.hpp */; };
+		E1B6D71F1E529A3400BABC46 /* netvarmanager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1B6D71B1E529A3400BABC46 /* netvarmanager.cpp */; };
+		E1B6D7201E529A3400BABC46 /* netvarmanager.h in Headers */ = {isa = PBXBuildFile; fileRef = E1B6D71C1E529A3400BABC46 /* netvarmanager.h */; };
+		E1B6D7211E529A3400BABC46 /* offsets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1B6D71D1E529A3400BABC46 /* offsets.cpp */; };
+		E1B6D7221E529A3400BABC46 /* offsets.h in Headers */ = {isa = PBXBuildFile; fileRef = E1B6D71E1E529A3400BABC46 /* offsets.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E1158A611E5355A000998137 /* Drawings.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Drawings.cpp; sourceTree = "<group>"; };
+		E1158A621E5355A000998137 /* Drawings.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Drawings.hpp; sourceTree = "<group>"; };
+		E1158A651E537DBB00998137 /* framestage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = framestage.cpp; sourceTree = "<group>"; };
+		E1158A671E538AD600998137 /* IEngineTrace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IEngineTrace.h; sourceTree = "<group>"; };
+		E1158A6A1E53B46200998137 /* IVModelInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IVModelInfo.h; sourceTree = "<group>"; };
+		E1158A6B1E53B4B300998137 /* IMaterial.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMaterial.h; sourceTree = "<group>"; };
+		E1158A6E1E53BD1D00998137 /* CUserCmd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CUserCmd.h; sourceTree = "<group>"; };
+		E1B6D6E01E5276F100BABC46 /* libMicrowave.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libMicrowave.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1B6D6E81E52770E00BABC46 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E1B6D6E91E52770E00BABC46 /* main.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = main.hpp; sourceTree = "<group>"; };
+		E1B6D6ED1E5278AA00BABC46 /* common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
+		E1B6D6EE1E52791B00BABC46 /* ISurface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ISurface.h; sourceTree = "<group>"; };
+		E1B6D6EF1E527B8F00BABC46 /* VMT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMT.h; sourceTree = "<group>"; };
+		E1B6D6F01E527E1700BABC46 /* interfaces.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = interfaces.cpp; sourceTree = "<group>"; };
+		E1B6D6F11E527E1700BABC46 /* interfaces.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = interfaces.hpp; sourceTree = "<group>"; };
+		E1B6D6F41E527EAB00BABC46 /* Color.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Color.h; sourceTree = "<group>"; };
+		E1B6D6F51E527F2200BABC46 /* Others.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Others.h; sourceTree = "<group>"; };
+		E1B6D6F61E527F9300BABC46 /* Vector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vector.h; sourceTree = "<group>"; };
+		E1B6D6F71E52813B00BABC46 /* IPanel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IPanel.h; sourceTree = "<group>"; };
+		E1B6D6F81E5281D800BABC46 /* Hooks.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Hooks.cpp; sourceTree = "<group>"; };
+		E1B6D6F91E5281D800BABC46 /* Hooks.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Hooks.hpp; sourceTree = "<group>"; };
+		E1B6D6FD1E52853500BABC46 /* painttraverse.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = painttraverse.cpp; sourceTree = "<group>"; };
+		E1B6D6FE1E52853500BABC46 /* hacks.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = hacks.hpp; sourceTree = "<group>"; };
+		E1B6D7181E528CEA00BABC46 /* ICvar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICvar.h; sourceTree = "<group>"; };
+		E1B6D7191E52991300BABC46 /* C_BaseEntity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = C_BaseEntity.h; sourceTree = "<group>"; };
+		E1B6D71A1E52992B00BABC46 /* IClientEntityList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IClientEntityList.h; sourceTree = "<group>"; };
+		E1B6D71B1E529A3400BABC46 /* netvarmanager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = netvarmanager.cpp; sourceTree = "<group>"; };
+		E1B6D71C1E529A3400BABC46 /* netvarmanager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = netvarmanager.h; sourceTree = "<group>"; };
+		E1B6D71D1E529A3400BABC46 /* offsets.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = offsets.cpp; sourceTree = "<group>"; };
+		E1B6D71E1E529A3400BABC46 /* offsets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = offsets.h; sourceTree = "<group>"; };
+		E1B6D7231E529AE600BABC46 /* IBaseClientDLL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IBaseClientDLL.h; sourceTree = "<group>"; };
+		E1B6D7241E529DCA00BABC46 /* IVDebugOverlay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IVDebugOverlay.h; sourceTree = "<group>"; };
+		E1B6D7251E529E8A00BABC46 /* IEngineClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IEngineClient.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1B6D6DD1E5276F000BABC46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1158A601E53558900998137 /* Drawings */ = {
+			isa = PBXGroup;
+			children = (
+				E1158A611E5355A000998137 /* Drawings.cpp */,
+				E1158A621E5355A000998137 /* Drawings.hpp */,
+			);
+			name = Drawings;
+			sourceTree = "<group>";
+		};
+		E1B6D6D71E5276F000BABC46 = {
+			isa = PBXGroup;
+			children = (
+				E1158A601E53558900998137 /* Drawings */,
+				E1B6D6EC1E52789300BABC46 /* SDK */,
+				E1B6D6E71E5276FE00BABC46 /* Hack */,
+				E1B6D6E11E5276F100BABC46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1B6D6E11E5276F100BABC46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1B6D6E01E5276F100BABC46 /* libMicrowave.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1B6D6E71E5276FE00BABC46 /* Hack */ = {
+			isa = PBXGroup;
+			children = (
+				E1B6D6FE1E52853500BABC46 /* hacks.hpp */,
+				E1B6D6FC1E52851700BABC46 /* Hooks */,
+				E1B6D6E81E52770E00BABC46 /* main.cpp */,
+				E1B6D6E91E52770E00BABC46 /* main.hpp */,
+				E1B6D6F01E527E1700BABC46 /* interfaces.cpp */,
+				E1B6D6F11E527E1700BABC46 /* interfaces.hpp */,
+				E1B6D6F81E5281D800BABC46 /* Hooks.cpp */,
+				E1B6D6F91E5281D800BABC46 /* Hooks.hpp */,
+			);
+			name = Hack;
+			sourceTree = "<group>";
+		};
+		E1B6D6EC1E52789300BABC46 /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				E1B6D71B1E529A3400BABC46 /* netvarmanager.cpp */,
+				E1B6D71C1E529A3400BABC46 /* netvarmanager.h */,
+				E1B6D71D1E529A3400BABC46 /* offsets.cpp */,
+				E1B6D71E1E529A3400BABC46 /* offsets.h */,
+				E1B6D6ED1E5278AA00BABC46 /* common.h */,
+				E1B6D6EE1E52791B00BABC46 /* ISurface.h */,
+				E1B6D6EF1E527B8F00BABC46 /* VMT.h */,
+				E1B6D6F41E527EAB00BABC46 /* Color.h */,
+				E1B6D6F51E527F2200BABC46 /* Others.h */,
+				E1B6D6F61E527F9300BABC46 /* Vector.h */,
+				E1B6D6F71E52813B00BABC46 /* IPanel.h */,
+				E1B6D7181E528CEA00BABC46 /* ICvar.h */,
+				E1B6D7191E52991300BABC46 /* C_BaseEntity.h */,
+				E1B6D71A1E52992B00BABC46 /* IClientEntityList.h */,
+				E1B6D7231E529AE600BABC46 /* IBaseClientDLL.h */,
+				E1B6D7241E529DCA00BABC46 /* IVDebugOverlay.h */,
+				E1B6D7251E529E8A00BABC46 /* IEngineClient.h */,
+				E1158A671E538AD600998137 /* IEngineTrace.h */,
+				E1158A6A1E53B46200998137 /* IVModelInfo.h */,
+				E1158A6B1E53B4B300998137 /* IMaterial.h */,
+				E1158A6E1E53BD1D00998137 /* CUserCmd.h */,
+			);
+			name = SDK;
+			sourceTree = "<group>";
+		};
+		E1B6D6FC1E52851700BABC46 /* Hooks */ = {
+			isa = PBXGroup;
+			children = (
+				E1B6D6FD1E52853500BABC46 /* painttraverse.cpp */,
+				E1158A651E537DBB00998137 /* framestage.cpp */,
+			);
+			name = Hooks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E1B6D6DE1E5276F000BABC46 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1158A641E5355A000998137 /* Drawings.hpp in Headers */,
+				E1B6D6F31E527E1700BABC46 /* interfaces.hpp in Headers */,
+				E1B6D7221E529A3400BABC46 /* offsets.h in Headers */,
+				E1B6D6EB1E52770E00BABC46 /* main.hpp in Headers */,
+				E1B6D7201E529A3400BABC46 /* netvarmanager.h in Headers */,
+				E1B6D6FB1E5281D800BABC46 /* Hooks.hpp in Headers */,
+				E1B6D7001E52853500BABC46 /* hacks.hpp in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E1B6D6DF1E5276F000BABC46 /* Microwave */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1B6D6E41E5276F100BABC46 /* Build configuration list for PBXNativeTarget "Microwave" */;
+			buildPhases = (
+				E1B6D6DC1E5276F000BABC46 /* Sources */,
+				E1B6D6DD1E5276F000BABC46 /* Frameworks */,
+				E1B6D6DE1E5276F000BABC46 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Microwave;
+			productName = Microwave;
+			productReference = E1B6D6E01E5276F100BABC46 /* libMicrowave.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1B6D6D81E5276F000BABC46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = ViKiNG;
+				TargetAttributes = {
+					E1B6D6DF1E5276F000BABC46 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E1B6D6DB1E5276F000BABC46 /* Build configuration list for PBXProject "Microwave" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E1B6D6D71E5276F000BABC46;
+			productRefGroup = E1B6D6E11E5276F100BABC46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1B6D6DF1E5276F000BABC46 /* Microwave */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1B6D6DC1E5276F000BABC46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1B6D6EA1E52770E00BABC46 /* main.cpp in Sources */,
+				E1B6D6F21E527E1700BABC46 /* interfaces.cpp in Sources */,
+				E1158A631E5355A000998137 /* Drawings.cpp in Sources */,
+				E1B6D7211E529A3400BABC46 /* offsets.cpp in Sources */,
+				E1B6D71F1E529A3400BABC46 /* netvarmanager.cpp in Sources */,
+				E1B6D6FF1E52853500BABC46 /* painttraverse.cpp in Sources */,
+				E1158A661E537DBB00998137 /* framestage.cpp in Sources */,
+				E1B6D6FA1E5281D800BABC46 /* Hooks.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E1B6D6E21E5276F100BABC46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E1B6D6E31E5276F100BABC46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E1B6D6E51E5276F100BABC46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E1B6D6E61E5276F100BABC46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1B6D6DB1E5276F000BABC46 /* Build configuration list for PBXProject "Microwave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1B6D6E21E5276F100BABC46 /* Debug */,
+				E1B6D6E31E5276F100BABC46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1B6D6E41E5276F100BABC46 /* Build configuration list for PBXNativeTarget "Microwave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1B6D6E51E5276F100BABC46 /* Debug */,
+				E1B6D6E61E5276F100BABC46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1B6D6D81E5276F000BABC46 /* Project object */;
+}
