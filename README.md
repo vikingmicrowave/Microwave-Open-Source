@@ -13,3 +13,5 @@ Macintosh hack for Counter-Strike: Global Offensive. Open source.
 * Add Directory for the SDK.
 * Add SDL2
 * Add ImGui
+
+##Credits are mentioned on the UC thread.
