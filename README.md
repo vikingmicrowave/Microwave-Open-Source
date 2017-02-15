@@ -10,3 +10,6 @@ Macintosh hack for Counter-Strike: Global Offensive. Open source.
 # Todo in 1.0.2:
 * Add CreateMove
 * Fix the rest of the SDK.
+* Add Directory for the SDK.
+* Add SDL2
+* Add ImGui
