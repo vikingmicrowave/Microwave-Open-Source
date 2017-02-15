@@ -7,6 +7,6 @@ Macintosh hack for Counter-Strike: Global Offensive. Open source.
 + Fixed PaintTraverse
 + Added more functions to the SDK.
 
-# Todo:
+# Todo in 1.0.2:
 * Add CreateMove
 * Fix the rest of the SDK.
