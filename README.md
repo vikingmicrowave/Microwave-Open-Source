@@ -1,6 +1,10 @@
 # Microwave-Open-Source
 Macintosh hack for Counter-Strike: Global Offensive. Open source.
 <hr>
+
+#### Gitter
+https://gitter.im/Microwave-macOS/Lobby
+
 # Update: 1.0.1
 + Added Drawings
 + Added FrameStage
