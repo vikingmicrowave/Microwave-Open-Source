@@ -1,5 +1,7 @@
 # Microwave-Open-Source
 Macintosh hack for Counter-Strike: Global Offensive. Open source.
+## Get the injector here:
+https://github.com/scen/osxinj
 <hr>
 #### Signatures:
 CGlobalVarsBase:
