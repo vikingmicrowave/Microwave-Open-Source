@@ -25,6 +25,11 @@ public:
         typedef bool (* oGetPlayerInfo)(void*, int, player_info_t*);
         return getvfunc<oGetPlayerInfo>(this, 8)(this, iIndex, pInfo);
     }
+
+    int GetMaxClients() {
+        typedef int(*oGetMaxClients)(void*);
+        return getvfunc<oGetMaxClients>(this, 20)(this);
+    }
     
     bool IsInGame() {
         typedef bool (* oIsInGame)(void*);
@@ -39,6 +44,31 @@ public:
     int GetLocalPlayer() {
         typedef int (* oGetLocalPlayer)(void*);
         return getvfunc<oGetLocalPlayer>(this, 12)(this);
+    }
+    
+    void GetViewAngles(Vector& vAngle) {
+        typedef void(* oGetViewAngles)(void*, Vector&);
+        return getvfunc<oGetViewAngles>(this, 18)(this, vAngle);
+    }
+
+    void SetViewAngles(Vector& vAngle) {
+        typedef void(* oSetViewAngles)(void*, Vector&);
+        return getvfunc<oSetViewAngles>(this, 19)(this, vAngle);
+    }
+
+    bool IsHLTV() {
+        typedef bool(*oIsHLTV)(void*);
+        return getvfunc<oIsHLTV>(this, 93)(this);
+    }
+
+    bool IsTakingScreenShot() {
+        typedef bool(*oIsTakingScreenShot)(void*);
+        return getvfunc<oIsTakingScreenShot>(this, 92)(this);
+    }
+
+    void ClientCmd_Unrestricted(const char* szCommand) {
+        typedef void(*oClientCmd)(void*);
+        return getvfunc<oClientCmd>(this, 7)(this);
     }
 
 };
