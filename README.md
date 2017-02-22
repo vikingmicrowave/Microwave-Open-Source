@@ -8,6 +8,14 @@ https://github.com/vikingmicrowave/Microwave-Open-Source/issues/2
 <hr>
 #### Signatures:
 
+SDL_GL_PollEvent
+
+Normal: \x55\x48\x89\xE5\x48\x83\xEC\x00\x48\x89\x7D\xF8\xE8\x2F\x6A\x00\x00\x48\x8B\x3D\x00\x00\x00\x00 xxxxxxx?xxxxxxxxxxxx????
+Start: 0x14
+End: 0x4
+Module: libSDL2-2.0.0.dylib
+IDA Style: 55 48 89 E5 48 83 EC ? 48 89 7D F8 E8 2F 6A ? ? 48 8B 3D ? ? ? ? 
+
 SDL_GL_SwapWindow
 
 Normal: \x55\x48\x89\xE5\x48\x83\xEC\x00\x48\x89\x7D\xF8\xE8\xBF\x06\x00\x00\x48\x8B\x3D\x00\x00\x00\x00 xxxxxxx?xxxxxxxxxxxx????
