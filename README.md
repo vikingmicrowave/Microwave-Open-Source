@@ -39,4 +39,4 @@ https://gitter.im/Microwave-macOS/Lobby
 * Add SDL2
 * Add ImGui
 
-##Credits are mentioned on the UC thread.
+##Credits are mentioned on the thread.
