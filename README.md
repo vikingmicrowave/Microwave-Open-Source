@@ -41,6 +41,7 @@ End: 0x4
 
 IDA Style: 55 48 89 E5 48 8D 05 ? ? ? ? 48 89 05 ? ? ? ? E8 B9 FB 3D ? 48 8B 08 48 8B 09
 
+https://mac.barbossa.pro (This is the site where i will post updates).
 
 #### Gitter
 https://gitter.im/Microwave-macOS/Lobby
