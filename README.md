@@ -52,11 +52,7 @@ https://gitter.im/Microwave-macOS/Lobby
 + Fixed PaintTraverse
 + Added more functions to the SDK.
 
-# Todo in 1.0.2:
-* Add CreateMove
-* Fix the rest of the SDK.
-* Add Directory for the SDK.
-* Add SDL2
-* Add ImGui
+# No more updates.
+*** There won't be anymore updates. ***
 
 ##Credits are mentioned on the thread.
