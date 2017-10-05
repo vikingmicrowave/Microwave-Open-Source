@@ -58,8 +58,12 @@ https://gitter.im/Microwave-macOS/Lobby
 ##Credits are mentioned on the thread.
 
 # Note 2:
+To Clarify:
+
 This is only a csgo cheat, and not a backdoor.
 
 I am not part of the vlone backdoor.
 
 I was going to buy vlone subscription just to test it out, but now i won't.
+
+Also, to those fags who can't pronounce "Barbossa" correctly, fuck you.
