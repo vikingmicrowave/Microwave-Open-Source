@@ -56,3 +56,7 @@ https://gitter.im/Microwave-macOS/Lobby
 *** There won't be anymore updates. ***
 
 ##Credits are mentioned on the thread.
+
+# Note 2:
+This is only a hack, and not a backdoor.
+I am not part of the vlone backdoor.
