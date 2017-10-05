@@ -58,5 +58,8 @@ https://gitter.im/Microwave-macOS/Lobby
 ##Credits are mentioned on the thread.
 
 # Note 2:
-This is only a hack, and not a backdoor.
+This is only a csgo cheat, and not a backdoor.
+
 I am not part of the vlone backdoor.
+
+I was going to buy vlone subscription just to test it out, but now i won't.
